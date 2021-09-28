@@ -1,0 +1,455 @@
+ 
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: all .2s linear;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: cadetblue;
+}
+.logo{
+   color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+ header ul{
+    float: right;
+    margin-right: 40px;
+}
+header ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 15px;
+   
+}
+ header ul li a{
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+ label #sign-one,   
+label #sign-two{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 100px;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+#res-menu{
+    display: none;
+    
+}
+    
+    
+   
+
+ section{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 5% auto;
+    }
+   
+.img img{
+    width: 600px;
+    height: 500px;
+    margin-top: -40px;
+}
+.text{
+    flex-basis: 50%;
+}
+.img{
+    flex-basis: 50%;
+    text-align: center;
+}
+.text h1{
+  
+margin-top: 100px;
+    font-size: 60px;
+}
+.text h3{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.text button{
+    display: block;
+    width: 150px;
+    padding: 8px 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+margin-left: 280px;
+}
+.heading{
+   text-align: center;
+    font-size: 50px;
+    padding: 2px;
+    text-transform: uppercase;
+   margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.faculty .container{
+   max-width: 1100px;
+    margin: auto;
+    background-color: cadetblue;
+    overflow: auto;
+ 
+}
+.faculty .container .box{
+    
+    width: 300px;
+    margin: 8px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    float: left;
+    text-align: center;
+      margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.faculty .container .box img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+  
+}
+.review .box{
+    width: 400px;
+    margin: 30px;
+    text-align: center;
+}
+
+.review .box .t1{
+    background-color: cadetblue;
+      margin-bottom: 20px;
+}
+.review .box p{
+    font-size: 20px;
+    color: black;
+}
+.review .box h3{
+    font-size: 15px;
+    color: black;
+}
+
+.imgs{
+    padding: 15px;
+   
+}
+
+
+.review .box .imgs img{
+    height: 60px;
+    width: 60px;
+    clip-path: circle(); 
+    left: 0px;
+}
+.review .box .imgs img{
+    height: 60px;
+    width: 60px;
+    clip-path: circle(); 
+    left: 0px;
+}
+
+.post .container{
+   max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    overflow: auto;
+ margin-left: 70px;
+}
+
+
+.post .box{
+    width: 300px;
+    margin: 2px;
+    overflow: hidden;
+    border: 1px solid cadetblue;
+    float: left;
+    text-align: center;
+   padding: 2px;
+   margin-left: 35px;
+   background-color: cadetblue;
+  
+}
+.post .container .box .imgs{
+       padding: 15px;
+}
+.post .container .box .imgs img{
+    height: 200px;
+    width: 250px;
+    
+    left: 0px;
+}
+.t1 h1{
+    font-size: 20px;
+    color: black;
+}
+.t1 p{
+    font-size: 15px;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.t1 button{
+    display: block;
+    width: 150px;
+    padding: 8px 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+   margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.contact .container{
+      width: 700px;
+    background-color: cadetblue;
+    
+   
+    
+   
+}
+.contact .container .inputbox{
+    font-size: 30px;
+  margin-top: 10px;
+   margin-bottom: 2px;
+   margin-right: 40px; 
+   
+}
+.contact .container .inputbox input{
+ height: 3rem;
+    width: 40%;
+   padding: 10px;
+    font-size: 1rem;
+   margin-right: 20px;
+    
+}
+.contact .container textarea{
+ 
+   margin-top: 15px;
+    font-size: 1rem;
+margin-bottom: 15px;
+  margin-right: 50px;
+    width: 80%;
+}
+.contact .container .inputbox select{
+ height: 3rem;
+    width: 40%;
+   padding: 10px;
+    font-size: 1rem;
+    margin-right: 20px;
+   
+    
+}
+.contact .container button{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+     margin-right: 120px;
+    text-transform: uppercase;
+    margin-left: 70px;
+    padding: 10px;
+}
+.footer .cointainer{
+    width:1250px;
+    background-color: cadetblue;
+    height: 300px;
+}
+.footer .cointainer .box{
+      width: 330px;
+    
+    overflow: hidden;
+   
+    float: left;
+    text-align: center;
+   padding: 2px;
+   margin: 40px;
+   
+   
+}
+.footer .cointainer .box h1{
+    font-size: 30px;
+}
+.footer .cointainer .box p{
+    margin-top: 3px;
+     font-size: 18px;
+}
+.footer .cointainer .box ul li{
+    list-style: none;
+    margin: 10px;
+    cursor:pointer;
+}
+   
+@media (max-width: 500px) {
+    label #sign-one{
+        display: block;
+    }
+   
+    header ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: darkgrey;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: .5s;
+        z-index: 10;
+    }
+    
+    header ul li{
+        display: block;
+        margin: 40px 0;
+        line-height: 30px;
+    }
+    header ul li a{
+        font-size: 20px;
+    }
+    #res-menu:checked ~ ul{
+        left: 0;
+    }
+    #res-menu:checked ~ label #sign-one{
+        display: none;
+    }
+     #res-menu:checked ~ label #sign-two{
+        display: block;
+    }
+    header .logo{
+        font-size: 20px;
+       margin-left: -40px;
+    }
+}
+    
+   @media (max-width: 500px)
+{
+     section{
+        display: block;
+      
+    }
+    .img{
+         flex-basis: 100%;
+         display: block;
+    }
+   
+    .img img{
+        width: 100%;
+        height: auto;
+      
+       
+    }
+    .text button{
+  
+margin-left: 150px;
+}
+    .text{
+        margin-bottom: 60px;
+    } 
+    .faculty .container{
+   max-width: 400px;
+    padding: 30px; 
+ 
+}
+.faculty .container .box{
+    
+    margin-left: 20px; 
+}
+      .post .container{
+   max-width: 400px;
+   padding: 30px; 
+}
+    .post .container .box{
+   margin-left: -30px;
+  
+}
+   .contact .container{
+      width: 400px;
+padding: 30px;
+    
+   
+    
+   
+}
+  
+    
+    .contact .container .inputbox {
+      margin: -20px;
+        padding-top: 10px;
+        
+        }
+    .contact .container .inputbox input{
+ height: 2rem;
+    width: 50%;
+   padding: 6px;
+    font-size: 0.5rem;
+   margin-bottom: 40px;
+  
+    
+}
+    .contact .container textarea{
+ 
+   width: 70%;
+        height: 20%;
+   margin-right: 30px;
+        margin-bottom: 60px;
+}
+    .contact .container .inputbox select{
+ height: 2rem;
+    width:50%;
+   padding: 7px;
+    font-size: 0.6rem;
+   margin-right: 20px;
+   margin-bottom: 30px;
+}
+   .contact .container button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+   margin-top: -30px;
+    text-transform: uppercase;
+    margin-left: 77px;
+}
+    .review .box .t1{
+        margin: 40px;
+}
+    .footer .cointainer{
+        width: 400px;
+        margin: 30px;
+        height: 800px;
+        margin-left: 50px;
+    }
+    .footer .cointainer .box{
+        width: 60%;
+        margin-left: 80px;
+        text-align: center;
+    }
+}
